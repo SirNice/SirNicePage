@@ -1,0 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    color: aquamarine;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: burlywood;
+}
