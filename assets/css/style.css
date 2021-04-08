@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -46,7 +47,7 @@ body {
     background: #222831;
 }
 
-.navbar a{
+.navbar a {
     color: #3bd6cf;
     text-decoration: none;
     margin: 20px 40px 20px;
@@ -60,10 +61,11 @@ body {
 
 /* =========== Portafolio ============ */
 
-#portafolio{
+#portafolio {
     padding: 0 5%;
 }
-#portafolio h2{
+
+#portafolio h2 {
     font-size: 30px;
     text-align: center;
 }
@@ -80,9 +82,9 @@ body {
 
 .skill {
     display: grid;
-	align-items: center;
-	list-style: none;
-	grid-template-columns: repeat(auto-fill, 200px);
+    align-items: center;
+    list-style: none;
+    grid-template-columns: repeat(auto-fill, 200px);
 }
 
 .skill li img {
@@ -98,10 +100,11 @@ body {
 
 /* =========== Experiencia ============ */
 
-#experiencia{
+#experiencia {
     padding: 0 5%;
 }
-#experiencia h2{
+
+#experiencia h2 {
     font-size: 30px;
     text-align: center;
 }
@@ -113,22 +116,98 @@ body {
 /* =========== Contacto ============ */
 
 /* =========== contacto ============ */
-#contacto{
+#contacto {
     padding: 0 5%;
 }
+
 #social {
     display: flex;
     justify-content: center;
 }
 
-#contacto h2{
+#contacto h2 {
     font-size: 30px;
     text-align: center;
 }
 
+.content {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+.logo {
+    text-align: center;
+    font-size: 2em;
+}
+
+.logo span {
+    color: #36bed9
+}
+
+.contact-form form p {
+    margin: 0;
+    padding: 1em;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form .block {
+    grid-column: 1 / 3;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    color: #000;
+    background: none;
+    outline: 0;
+    border-bottom: 1px solid #19ed91;
+}
+
+.contact-form form button {
+    background: #3bd6cf;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background: #20918b;
+    color: #222831;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+
+.contact-info {
+    background: #000;
+}
+
+.contact-info h4,
+.contact-info ul,
+.contact-info p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+    color: #adb6c7;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info
 /* =========== Social ============ */
 
-.social-media{
+.social-media {
     text-align: center;
 }
 
