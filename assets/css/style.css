@@ -61,12 +61,11 @@ body {
 
 /* =========== Portafolio ============ */
 
-#portafolio {
+#portfolio {
     padding: 0 5%;
 }
 
-#portafolio h2 {
-    font-size: 30px;
+#portfolio h2 {
     text-align: center;
 }
 
@@ -100,12 +99,11 @@ body {
 
 /* =========== Experiencia ============ */
 
-#experiencia {
+#experience {
     padding: 0 5%;
 }
 
-#experiencia h2 {
-    font-size: 30px;
+#experience h2 {
     text-align: center;
 }
 
@@ -116,7 +114,7 @@ body {
 /* =========== Contacto ============ */
 
 /* =========== contacto ============ */
-#contacto {
+#contact {
     padding: 0 5%;
 }
 
@@ -125,8 +123,7 @@ body {
     justify-content: center;
 }
 
-#contacto h2 {
-    font-size: 30px;
+#contact h2 {
     text-align: center;
 }
 
@@ -137,19 +134,12 @@ body {
     padding: 1.5em;
 }
 
-.logo {
-    text-align: center;
-    font-size: 2em;
-    font-family: 'Montserrat', Helvetica, sans-serif;
-}
-
-.logo span {
-    color: #36bed9
-}
 
 .contact-form form p {
     margin: 0;
     padding: 1em;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    color: #4b4c4d;
 }
 
 .contact-form form {
@@ -168,44 +158,38 @@ body {
     padding: .7em;
     border: none;
     color: #000;
+    font-size: 20px;
     background: none;
     outline: 0;
-    border-bottom: 1px solid #19ed91;
+    border-bottom: 2px solid #19ed91;
+    font-family: 'Rubik', Helvetica, sans-serif;
+}
+
+.contact-form form input:focus,
+.contact-form form textarea:focus {
+    border-bottom: 2.5px solid #19edd1;
+    transition: border-bottom 1s ease-out;
 }
 
 .contact-form form button {
     background: #3bd6cf;
-    border: 0;
+    border-radius: 10px;
     text-transform: uppercase;
     padding: 1em;
+    font-family: 'Rubik', Helvetica, sans-serif;
+    font-size: 20px;
 }
 
 .contact-form form button:hover,
 .contact-form form button:focus {
-    background: #20918b;
-    color: #222831;
+    background: rgb(11, 173, 160);
+    color: #fff;
     transition: background-color 1s ease-out;
     outline: 0;
 }
 
-.contact-info {
-    background: #000;
-}
 
-.contact-info h4,
-.contact-info ul,
-.contact-info p {
-    text-align: center;
-    margin: 0 0 1rem 0;
-    color: #adb6c7;
-}
 
-.contact-info ul {
-    list-style: none;
-    padding: 0;
-}
-
-.contact-info
 /* =========== Social ============ */
 
 .social-media {
@@ -213,14 +197,14 @@ body {
 }
 
 .social-media i {
-    font-size: 20px;
+    font-size: 28px;
     display: inline-block;
     color: #adb6c7;
     border: 1px solid #36bed9;
     border-radius: 50%;
-    width: 38px;
-    height: 38px;
-    line-height: 36px;
+    width: 42px;
+    height: 42px;
+    line-height: 38px;
     cursor: pointer;
     margin: 20px;
     text-align: center;
@@ -255,10 +239,10 @@ body {
 
 /* ============ CONFIG ============ */
 /* ============ SUBTITULOS ============*/
-.subtitulos {
+.tittles {
+    font-size: 4em;
     text-align: center;
     color: #4b4c4d;
-    font-size: 30px;
     font-family: 'Montserrat', Helvetica, sans-serif;
     margin: 20px 0px 10px;
 }
