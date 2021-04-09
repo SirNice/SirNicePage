@@ -16,8 +16,6 @@
     <meta name="robots" content="index, follow">
     <meta name="googlebot" content="index, follow">
 
-    <!-- ANIMATE CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -105,29 +103,31 @@
 
 
 
-                    <div class="contact-wrapper animated bounceInUp">
+                    <div class="contact-wrapper">
                         <div class="contact-form">
                             
-                            <form action="">
+                            
+                            
+                            <form action="https://test-emails-contact-page.sirnice.repl.co/" method="POST">
                                 <p>
-                                    <label for="text">Full Name</label>
-                                    <input type="text" name="fullname">
+                                    <label for="fullname">Full Name</label>
+                                    <input type="text" name="fullname" id="fullname" required>
                                 </p>
                                 <p>
                                     <label for="email">Email Adress</label>
-                                    <input type="email" name="email">
+                                    <input type="email" name="email" id="email" required>
                                 </p>
                                 <p>
                                     <label for="phone">Phone Number</label>
-                                    <input type="tel" name="phone">
+                                    <input type="tel" name="phone" id="phone">
                                 </p>
                                 <p>
-                                    <label for="affair">Affair</label>
-                                    <input type="text" name="affair">
+                                    <label for="subject">Subject</label>
+                                    <input type="text" name="subject" id="subject">
                                 </p>
                                 <p class="block">
-                                    <label>Message</label>
-                                    <textarea name="message" rows="3"></textarea>
+                                    <label for="message">Message</label>
+                                    <textarea name="message" rows="3" id="message" required></textarea>
                                 </p>
                                 <p class="block">
                                     <button>
@@ -135,6 +135,7 @@
                                     </button>
                                 </p>
                             </form>
+
                         </div>
 
                     </div>
@@ -148,8 +149,7 @@
                     <a href="https://github.com/SirNice"><i class="fab fa-github"></i></a>
                     <a href="https://twitter.com/M1chaelLiendo"><i class="fab fa-twitter"></i></a>
                     <a href="https://www.linkedin.com/in/michael-liendo-a6b0b9203/"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://www.youtube.com/channel/UCxs7ruEmn1lSG1Bj2CKTVYw"><i
-                            class="fab fa-youtube"></i></a>
+                    <a href="https://www.youtube.com/channel/UCxs7ruEmn1lSG1Bj2CKTVYw"><i class="fab fa-youtube"></i></a>
                 </div>
     </section>
 
